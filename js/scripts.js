@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  
   $("form#roboger").submit(function(event) {
     event.preventDefault();
     
@@ -10,18 +9,17 @@ $(document).ready(function() {
     for (let i = 0; i <= inputNumbers; i += 1) {
       numberRange.push(i.toString());
     };
-    //let beepRange =  numberRange.split(' ')
-    
 
-     numberRange.forEach(function(i) { 
-      //make new array to string from range
-       if (numberRange[i] === "1") {
-        numberRange[i] = "Beep!";
+     numberRange.forEach(function(number) { 
+       if (numberRange[number].includes("3")) {
+        numberRange[number] ="Won't you be my neighbor?";
        }
-       else if (numberRange[i] === "2") {
-         numberRange[i] = "Boop!";
+       else if (numberRange[number].includes("2")) {
+         numberRange[number] = "Boop!";
        }
-
+       else if (numberRange[number].includes("1")) {
+         numberRange[number] = "Beep!"
+       }
     });
 
     console.log(numberRange);
@@ -29,3 +27,14 @@ $(document).ready(function() {
 
   });
 });
+
+   // split array
+    // numberRange.forEach(function(number) {
+    //   numberRange.push(number.split(" "));
+    // });
+      //let splitRange = [];
+      //splitRange = numberRange.split(" ");
+   
+    //console.log(splitRange);
+   
+    //let beepRange =  numberRange.split(' ')
