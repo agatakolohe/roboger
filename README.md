@@ -31,7 +31,7 @@ Third independent project for Epicodus Intro to Programming. It is a web applica
 * Clone this repository
 * Open with code editor to make changes
 
-* To view in browser click the GH-Pages link: [Mr.Roboger's Neighborhood](https://agatakolohe.github.io/language-quiz/)
+* To view in browser click the GH-Pages link: [Mr.Roboger's Neighborhood](https://agatakolohe.github.io/roboger/)
 * Type in a number into text box and click submit
 * Enjoy the range of numbers in Mr. Roboger's neighborhood
 
