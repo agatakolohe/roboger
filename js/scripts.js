@@ -4,12 +4,11 @@ $(document).ready(function() {
     
     const inputNumbers = [];
     inputNumbers.push($("input#number").val());
-
     let numberRange = [];
     for (let i = 0; i <= inputNumbers; i += 1) {
       numberRange.push(i.toString());
     };
-
+    
      numberRange.forEach(function(number) { 
        if (numberRange[number].includes("3")) {
         numberRange[number] ="Won't you be my neighbor?";
@@ -21,20 +20,6 @@ $(document).ready(function() {
          numberRange[number] = "Beep!"
        }
     });
-
-    console.log(numberRange);
     $("#result").text(numberRange);
-
   });
 });
-
-   // split array
-    // numberRange.forEach(function(number) {
-    //   numberRange.push(number.split(" "));
-    // });
-      //let splitRange = [];
-      //splitRange = numberRange.split(" ");
-   
-    //console.log(splitRange);
-   
-    //let beepRange =  numberRange.split(' ')

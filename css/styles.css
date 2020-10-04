@@ -1,0 +1,19 @@
+.jumbotron {
+  text-align: center;
+  background-color: #007272;
+}
+.jumboimg {
+  margin: 10px;
+  height: 70%;
+  width: 70%;
+  border: solid white;
+  border-width: 5px;
+}
+body {
+  background: darkcyan;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button {
+  margin-bottom: 20px;
+}
