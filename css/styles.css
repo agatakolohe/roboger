@@ -7,13 +7,23 @@
   height: 70%;
   width: 70%;
   border: solid white;
+  border-style: inset;
   border-width: 5px;
 }
 body {
   background: darkcyan;
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Anonymous Pro", monospace;
 }
 button {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
+label[for="number"] {
+  margin-top: 20px;
+}
+h4 {
+  text-shadow: 5px 5px #007272;
+}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
