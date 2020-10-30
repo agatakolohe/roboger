@@ -12,14 +12,14 @@ Third independent project for Epicodus. It is a web application that takes a num
 
 ### Describe: beepBoop()
 
-| Test                                                                      | Expect                                                                                                                                                     |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| It will return a range of numbers from 0 to the user's inputted number    | beepBoop(4).toEqual([0,1,2,3,4]);                                                                                                                          |
-| It will replace all numbers containing 1 with "Beep!"                     | beepBoop(10).toEqual([0,"Beep!",2,3,4,5,6,7,8,9,"Beep!"]);                                                                                                 |
-| It will replace all numbers containing 2 with "Boop!"                     | beepBoop(12).toEqual([0,"Beep!","Boop!",3,4,5,6,7,8,9,"Beep!","Beep!","Boop!"]);                                                                           |
-| It will replace all numbers containing 3 with "Won't you be my neighbor?" | beepBoop(13).toEqual([0,"Beep!","Boop!","Won't you be my neighbor?",4,5,6,7,8,9,"Beep!","Beep!","Boop!","Won't you be my neighbor?"]);                     |
-| It will display inputted name in "Won't you be my neighbor?"              | beepBoop("input#name").toEqual([0,"Beep!","Boop!","Won't you be my neighbor name?",4,5,6,7,8,9,"Beep!","Beep!","Boop!","Won't you be my neighbor name?"]); |
-| It will return the reverse order of numbers when user clicks "Reverse!"   | beepBoop(4).toEqual([4, "Won't you be my neighbor name?", "Boop!", "Beep!", 0]);                                                                           |
+| Test                                                                      | Expect                                                                                                                                                                  |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| It will return a range of numbers from 0 to the user's inputted number    | beepBoop(4).toEqual([0, 1, 2, 3, 4]);                                                                                                                                   |
+| It will replace all numbers containing 1 with "Beep!"                     | beepBoop(10).toEqual([0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!"]);                                                                                                    |
+| It will replace all numbers containing 2 with "Boop!"                     | beepBoop(12).toEqual([0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!"]);                                                                            |
+| It will replace all numbers containing 3 with "Won't you be my neighbor?" | beepBoop(13).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]);                     |
+| It will display inputted name in "Won't you be my neighbor?"              | beepBoop("input#name").toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor name?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor name?"]); |
+| It will return the reverse order of numbers when user clicks "Reverse!"   | beepBoop(4).toEqual([4, "Won't you be my neighbor name?", "Boop!", "Beep!", 0]);                                                                                        |
 
 ## Setup/Installation Requirements
 
