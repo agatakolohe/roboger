@@ -15,17 +15,28 @@ $(document).ready(function () {
     event.preventDefault();
     const inputNumbers = [];
     inputNumbers.push($("input#number").val());
-
-    let numberRange = inputNumbers.map(function (number) {
-      if (number.toString().split("").includes("3")) {
-        inputNumbers.push(number, "Wont'you be my neighbor?");
-      } else if (number.toString().split("").includes("2")) {
-        inputNumbers.push(number, "Boop!");
+    let numberRange = inputNumbers.map(function(i=0 <= inputNumbers, += 1) {
+      if (i.toString().split("").includes("3")) {
+        numberRange.replace(i, "Wont'you be my neighbor?");
+      } else if (i.toString().split("").includes("2")) {
+        numberRange.replace(i, "Boop!");
       } else if (number.toString().split("").includes("1")) {
-        inputNumbers.push(number, "Beep!");
-      }
-      return inputNumbers;
-    });
+        numberRange.replace(i, "Beep!");
+      } return 
+
+
+    // let numberRange = [];
+    //  numberRange.forEach(function(number) {
+    //    if (numberRange[number].includes("3")) {
+    //     numberRange[number] ="Won't you be my neighbor?";
+    //    }
+    //    else if (numberRange[number].includes("2")) {
+    //      numberRange[number] = "Boop!";
+    //    }
+    //    else if (numberRange[number].includes("1")) {
+    //      numberRange[number] = "Beep!"
+    //    }
+    // });
 
     $("#result").text(numberRange);
   });
@@ -34,6 +45,8 @@ $(document).ready(function () {
 // for (let i = 0; i <= inputNumbers; i += 1) {
 //   numberRange.push(i.toString());
 // };
+
+// numberRange.push(i.toString());
 // let numberRange = [];
 //  numberRange.forEach(function(number) {
 //    if (numberRange[number].includes("3")) {
