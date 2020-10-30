@@ -1,6 +1,6 @@
 # Mr.Roboger's Neighborhood
 
-#### Arrays & Looping Independent Project for Epicodus Intro to Programming, 10-04-2020
+#### Arrays & Looping Independent Project for Epicodus, 10-30-2020
 
 #### By Agata Kolodziej
 
@@ -29,7 +29,7 @@ Third independent project for Epicodus. It is a web application that takes a num
 ##### View Online
 
 - To view in browser click the GH-Pages link: [Mr.Roboger's Neighborhood](https://agatakolohe.github.io/roboger/)
-- Type in a number into text box and click submit
+- Type in a number into the text box and click submit
 - Enjoy the range of numbers in Mr. Roboger's neighborhood
 - Repeat to get new number ranges
 
@@ -38,7 +38,7 @@ Third independent project for Epicodus. It is a web application that takes a num
 - Click on the link to my repository: [My Repository](https://github.com/agatakolohe/roboger.git)
 - Click on the green "Code" button and copy the repository URL
 - Open your terminal and use the command `git clone https://github.com/agatakolohe/roboger.git` into the directory you would like to clone the repository
-- Open in text editor to view vode and make changes
+- Open in text editor to view code and make changes
 
 ## Known Bugs
 
@@ -60,6 +60,6 @@ If any errors or bugs occur use Chrome DevTools or please email me, <agatakolohe
 
 ### License
 
-This software is licensed under the MIT license.
+This software is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 Copyright (c) 2020 Agata Kolodziej
