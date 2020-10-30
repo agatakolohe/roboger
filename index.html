@@ -17,18 +17,35 @@
           class="jumboimg"
         />
       </div>
+      <form id="name">
+        <label for="name">
+          <h4>Enter your name</h4>
+        </label>
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          placeholder="Type your name here"
+        />
+      </form>
       <form id="roboger">
         <label for="number">
           <h4>
             Enter a number to see a range of numbers in Mr.Roboger's
             neighborhood
           </h4>
-          <input type="number" id="number" class="form-control" />
+          <input
+            type="number"
+            id="number"
+            class="form-control"
+            placeholder="Example: 13"
+          />
         </label>
-        <br />
-        <button type="submit" class="btn btn-outline-light">Submit</button>
+        <button type="submit" class="btn btn-outline-light">Submit!</button>
+        <button type="click" class="btn btn-outline-dark">Reverse!</button>
       </form>
-      <div id="result"></div>
+      <div class="line-1 anim-typewriter" id="result"></div>
+      <div id="reverse"><h4></h4></div>
     </div>
   </body>
 </html>
