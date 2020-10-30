@@ -37,16 +37,10 @@ Third independent project for Epicodus. It is a web application that takes a num
 
 ##### Open Locally
 
-<<<<<<< HEAD
-* To view in browser click the GH-Pages link: [Mr.Roboger's Neighborhood](https://agatakolohe.github.io/roboger/)
-* Type in a number into text box and click submit
-* Enjoy the range of numbers in Mr. Roboger's neighborhood
-=======
 - Click on the link to my repository: [My Repository](https://github.com/agatakolohe/roboger.git)
 - Click on the green "Code" button and copy the repository URL
 - Open your terminal and use the command `git clone https://github.com/agatakolohe/roboger.git` into the directory you would like to clone the repository
 - Open in text editor to view code and make changes
->>>>>>> master
 
 ## Known Bugs
 
