@@ -6,7 +6,7 @@
 
 ## Description
 
-Third independent project for Epicodus. It is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number following specific exceptions. This project demonstrates my knowledge of Loops and Arrays in JavaScript and jQuery so far. I created a form that will prompt the user to enter a number and return a range of numbers (starting from 0 to the inputted number) converting certain digits (1,2,3) into strings ("Beep!", "Boop!", "Won't you be my neighbor?").
+Third independent project for Epicodus. It is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number following specific exceptions. This project demonstrates my knowledge of Loops and Arrays in JavaScript and jQuery so far. I created a form that will prompt the user to enter their name and a number and return a range of numbers (starting from 0 to the inputted number) converting certain digits (1,2,3) into strings ("Beep!", "Boop!", "Won't you be my neighbor?").
 
 ## Specifications
 
@@ -31,6 +31,7 @@ Third independent project for Epicodus. It is a web application that takes a num
 ##### View Online
 
 - To view in browser click the GH-Pages link: [Mr.Roboger's Neighborhood](https://agatakolohe.github.io/roboger/)
+- Type in your name into the text box
 - Type in a number into the text box and click submit
 - Enjoy the range of numbers in Mr. Roboger's neighborhood
 - Repeat to get new number ranges
