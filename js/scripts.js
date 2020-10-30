@@ -15,29 +15,29 @@ $(document).ready(function () {
     event.preventDefault();
     const inputNumbers = [];
     inputNumbers.push($("input#number").val());
-    let numberRange = inputNumbers.map(function(i=0 <= inputNumbers, += 1) {
-      if (i.toString().split("").includes("3")) {
-        numberRange.replace(i, "Wont'you be my neighbor?");
-      } else if (i.toString().split("").includes("2")) {
-        numberRange.replace(i, "Boop!");
-      } else if (number.toString().split("").includes("1")) {
-        numberRange.replace(i, "Beep!");
-      } return 
 
+    let numberRange = [];
 
-    // let numberRange = [];
-    //  numberRange.forEach(function(number) {
-    //    if (numberRange[number].includes("3")) {
-    //     numberRange[number] ="Won't you be my neighbor?";
-    //    }
-    //    else if (numberRange[number].includes("2")) {
-    //      numberRange[number] = "Boop!";
-    //    }
-    //    else if (numberRange[number].includes("1")) {
-    //      numberRange[number] = "Beep!"
-    //    }
+    for (let i = 0; i <= inputNumbers; i += 1) {
+      numberRange.push(i.toString());
+      if (numberRange[i].includes("3")) {
+        numberRange[i] = "Won't you be my neighbor?";
+      } else if (numberRange[i].includes("2")) {
+        numberRange[i] = "Boop!";
+      } else if (numberRange[i].includes("1")) {
+        numberRange[i] = "Beep!";
+      }
+    }
+
+    // numberRange.forEach(function (number) {
+    //   if (numberRange[number].includes("3")) {
+    //     numberRange[number] = "Won't you be my neighbor?";
+    //   } else if (numberRange[number].includes("2")) {
+    //     numberRange[number] = "Boop!";
+    //   } else if (numberRange[number].includes("1")) {
+    //     numberRange[number] = "Beep!";
+    //   }
     // });
-
     $("#result").text(numberRange);
   });
 });
@@ -66,3 +66,15 @@ $(document).ready(function () {
 //   numberRange.replace(number, "Boop!");
 // } else if (number.toString().split("").includes("1")) {
 //   numberRange.replace(number, "Beep!");
+// let numberRange = [];
+//  numberRange.forEach(function(number) {
+//    if (numberRange[number].includes("3")) {
+//     numberRange[number] ="Won't you be my neighbor?";
+//    }
+//    else if (numberRange[number].includes("2")) {
+//      numberRange[number] = "Boop!";
+//    }
+//    else if (numberRange[number].includes("1")) {
+//      numberRange[number] = "Beep!"
+//    }
+// })
